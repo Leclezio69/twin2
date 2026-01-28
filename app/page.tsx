@@ -1,7 +1,39 @@
+'use client';
+
 import TwinTwo from '@/components/twin-two';
 import { Sparkles, MessageSquare, Brain, Zap } from 'lucide-react';
+import { useState, useEffect } from 'react';
+
+const allQuestions = [
+  "How did you achieve 80% reduction in audit returns at Citi?",
+  "Tell me about your $30M portfolio optimization at Deutsche Bank",
+  "What regulatory programs have you led?",
+  "How did you improve operational accuracy by 30% at Credit Suisse?",
+  "What's your experience with AML and compliance transformations?",
+  "Tell me about your military background in 1 Parachute Battalion",
+  "What leadership roles have you held in banking?",
+  "How do you approach digital transformation projects?",
+  "What's your experience with risk management frameworks?",
+  "Tell me about your technology leadership experience",
+  "What countries have you worked in?",
+  "How do you manage cross-functional teams?",
+  "What's your approach to regulatory compliance?",
+  "Tell me about your experience with process automation",
+  "What major achievements are you most proud of?",
+  "How did you drive operational efficiency at major banks?",
+];
+
+function getRandomQuestions(count: number) {
+  const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+}
 
 export default function DigitalTwinTwoPage() {
+  const [suggestedQuestions, setSuggestedQuestions] = useState<string[]>([]);
+
+  useEffect(() => {
+    setSuggestedQuestions(getRandomQuestions(6));
+  }, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950">
       {/* Hero Section */}
@@ -91,14 +123,7 @@ export default function DigitalTwinTwoPage() {
             Try asking about:
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {[
-              "How did you achieve 80% reduction in audit returns at Citi?",
-              "Tell me about your $30M portfolio optimization at Deutsche Bank",
-              "What regulatory programs have you led?",
-              "How did you improve operational accuracy by 30% at Credit Suisse?",
-              "What's your experience with AML and compliance transformations?",
-              "Tell me about your military background in 1 Parachute Battalion",
-            ].map((question, idx) => (
+            {suggestedQuestions.map((question, idx) => (
               <div
                 key={idx}
                 className="px-4 py-3 bg-slate-800/50 border border-purple-500/10 rounded-lg hover:border-purple-500/30 transition-colors cursor-pointer group"
