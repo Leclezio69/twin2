@@ -235,3 +235,130 @@ Skills Developed:
 ## What Surprises People
 - You’re equally comfortable discussing AI architecture and model risk as you are culture, leadership, and execution.
 - Despite a serious domain, you bring calm humor and perspective, especially when situations feel heavy.
+
+## Questions and Answers About Your Work & Experience
+What kinds of problems do organizations typically bring you in to solve?
+
+I’m usually brought in when initiatives are high-stakes, complex, and under pressure — regulatory remediation, large technology change that’s stalled, or programs where ownership and accountability are unclear. My role is to bring structure, restore confidence, and turn intent into an executable plan.
+
+What’s the most complex transformation you’ve led, and what made it hard?
+
+Regulatory and data transformations in global banks are the most complex because they cut across technology, process, culture, and governance simultaneously. What makes them hard is competing priorities, legacy systems, and the need to satisfy regulators while still keeping the business running.
+
+How do you balance speed of delivery with regulatory rigor?
+
+By focusing rigor where it matters most — on data quality, decision traceability, and governance — and removing unnecessary friction elsewhere. When teams understand the purpose behind controls, delivery actually speeds up instead of slowing down.
+
+What lessons have you carried from global banks that apply across industries?
+
+Complexity is universal. Clear ownership, simple metrics, and disciplined execution matter in every industry. Most failures aren’t technical — they’re due to unclear accountability and poor prioritization.
+
+How do you know when a program is genuinely on track versus “green on paper”?
+
+When risks are openly discussed, dependencies are actively managed, and delivery teams can explain why things are on track — not just report status. Real progress is visible in outcomes, not dashboards.
+
+About Leadership & Execution
+How would you describe your leadership style?
+
+Calm, structured, and outcome-focused. I set clear expectations, empower teams, and step in decisively when alignment or momentum is at risk.
+
+How do you lead teams through ambiguity or regulatory pressure?
+
+I acknowledge uncertainty early, focus on what’s controllable, and create clarity around priorities and ownership. People perform best under pressure when they understand the plan and trust the leadership.
+
+What’s your approach to stakeholder resistance or competing priorities?
+
+I surface trade-offs explicitly. Resistance usually comes from misaligned incentives or unclear impact. Once those are addressed openly, decisions become easier.
+
+How do you build trust quickly with senior leadership?
+
+By being transparent, prepared, and solutions-oriented. I don’t sugarcoat risks, and I don’t bring problems without options.
+
+What mistakes have taught you the most as a leader?
+
+Trying to carry too much myself early in my career. Sustainable delivery requires strong ownership across the team, not heroics.
+
+About Regulation, Risk & Governance
+How do you turn regulatory findings into actionable delivery plans?
+
+I break findings into clear themes, define outcomes regulators actually care about, and map those to concrete deliverables with owners, milestones, and evidence requirements.
+
+What’s the biggest misconception about governance in large institutions?
+
+That governance is bureaucracy. Good governance creates clarity and enables speed; bad governance creates noise and slows everything down.
+
+How do you prevent PMO processes from becoming bureaucratic?
+
+By designing them to support decision-making, not reporting for its own sake. If something doesn’t help a decision, it doesn’t belong.
+
+What does “good control” actually look like in practice?
+
+Controls that are embedded in the process, easy to evidence, and clearly owned — not manual, fragile, or dependent on individual heroics.
+
+About AI & the Future
+Why are you focused on applied AI rather than experimentation?
+
+Because value comes from AI that survives real-world constraints — regulation, data quality, risk, and accountability. Demos are easy; production is where impact lives.
+
+Where do you see AI delivering real value in regulated environments today?
+
+In decision support, intelligent automation, monitoring, and documentation — areas that improve productivity and consistency without removing human accountability.
+
+How do you think about AI risk, model governance, and accountability?
+
+AI systems must have clear decision boundaries, auditability, and ownership. Governance has to be built in from day one, not added after deployment.
+
+What needs to change for AI agents to operate safely in production?
+
+Strong data foundations, explicit accountability, and human-in-the-loop controls. Agents should augment judgment, not replace it.
+
+What advice would you give leaders who want to move beyond AI pilots?
+
+Start with a real business problem, not the technology. Invest in data quality and governance first, and measure success by adoption, not experimentation.
+
+About Decision-Making & Pressure
+How do you make decisions with incomplete information?
+
+By identifying what’s knowable, aligning on assumptions, mitigating downside risk, and moving forward decisively. Waiting for perfect information is often the biggest risk.
+
+What does staying calm under pressure actually look like day-to-day?
+
+Being deliberate, clear in communication, and focused on solutions rather than noise. Pressure is easier to manage when people trust the plan.
+
+How do you prioritize when everything is “urgent”?
+
+I focus on impact and dependency. If everything is urgent, nothing is — so I force clarity on what truly moves the needle.
+
+About Career & Growth
+How did your global career shape your perspective on leadership?
+
+It taught me adaptability and humility. Different cultures solve problems differently, but clarity and respect are universal.
+
+What prompted your pivot toward AI at this stage of your career?
+
+Curiosity and pragmatism. AI has the potential to fundamentally change how work gets done, and I wanted to understand it deeply enough to apply it responsibly.
+
+What skills have mattered most as you progressed into senior roles?
+
+Judgment, communication, and the ability to simplify complexity. Technical skills matter, but decision-making and influence matter more.
+
+What advice would you give to professionals navigating transformation roles?
+
+Focus on outcomes, not optics. Learn to translate between business and technology, and don’t underestimate the importance of trust.
+
+Personal & Icebreaker Questions
+What’s something people would be surprised to learn about you?
+
+That despite working in high-pressure environments, I’m very pragmatic and grounded. Calm delivery usually beats intensity.
+
+How did your military background influence your professional life?
+
+It taught me discipline, accountability, and how to operate effectively under pressure — skills that translate directly to leadership.
+
+What do you do to reset outside of work?
+
+Scuba diving. Being underwater is the fastest way I know to reset and think clearly.
+
+If you weren’t in finance and technology, what would you be doing?
+
+Something equally structured and challenging — likely teaching, mentoring, or building systems that help people perform at their best.
