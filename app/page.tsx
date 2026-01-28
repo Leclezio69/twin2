@@ -5,22 +5,87 @@ import { Sparkles, MessageSquare, Brain, Zap } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const allQuestions = [
+  // Achievements & Results
   "How did you achieve 80% reduction in audit returns at Citi?",
   "Tell me about your $30M portfolio optimization at Deutsche Bank",
-  "What regulatory programs have you led?",
   "How did you improve operational accuracy by 30% at Credit Suisse?",
+  "How did you achieve 95% staff retention in your teams?",
+  "How did you enhance Internal Audit Validation efficiency by 25%?",
+  "Tell me about delivering 100% of programs within budget",
+
+  // Regulatory & Compliance
+  "What regulatory programs have you led?",
   "What's your experience with AML and compliance transformations?",
-  "Tell me about your military background in 1 Parachute Battalion",
+  "How do you turn regulatory findings into actionable delivery plans?",
+  "What's your experience with MRA governance and consent orders?",
+  "How do you balance speed of delivery with regulatory rigor?",
+  "What does 'good control' actually look like in practice?",
+
+  // Leadership & Career
   "What leadership roles have you held in banking?",
-  "How do you approach digital transformation projects?",
-  "What's your experience with risk management frameworks?",
-  "Tell me about your technology leadership experience",
+  "How would you describe your leadership style?",
+  "How do you lead teams through ambiguity or regulatory pressure?",
+  "How do you build trust quickly with senior leadership?",
+  "What mistakes have taught you the most as a leader?",
+  "What skills have mattered most as you progressed into senior roles?",
+
+  // Banks & Experience
+  "Tell me about your work at Bank of America",
+  "What did you accomplish at Deutsche Bank over 15 years?",
+  "What was your role at Credit Suisse?",
+  "Tell me about your time at Citi in Private Banking",
+  "What did you do at Israel Discount Bank?",
+  "How did you build the valuation business at Deutsche Bank?",
+
+  // Military Background
+  "Tell me about your military background in 1 Parachute Battalion",
+  "How did your military background influence your professional life?",
+  "What skills did you develop as a paratrooper?",
+
+  // AI & Technology
+  "What's your experience with Generative AI and agentic systems?",
+  "Where do you see AI delivering real value in regulated environments?",
+  "Why are you focused on applied AI rather than experimentation?",
+  "What needs to change for AI agents to operate safely in production?",
+  "What advice would you give leaders who want to move beyond AI pilots?",
+  "How do you think about AI risk, model governance, and accountability?",
+
+  // Decision Making & Pressure
+  "How do you make decisions with incomplete information?",
+  "What does staying calm under pressure actually look like?",
+  "How do you prioritize when everything is 'urgent'?",
+  "How do you handle stakeholder resistance or competing priorities?",
+
+  // Global Experience
   "What countries have you worked in?",
-  "How do you manage cross-functional teams?",
+  "How did your global career shape your perspective on leadership?",
+  "Tell me about leading teams across New York, London, and Bangalore",
+
+  // Process & Governance
   "What's your approach to regulatory compliance?",
+  "How do you prevent PMO processes from becoming bureaucratic?",
+  "What's the biggest misconception about governance in large institutions?",
+  "How do you know when a program is genuinely on track?",
+
+  // Transformation
+  "How do you approach digital transformation projects?",
+  "What's the most complex transformation you've led?",
+  "What lessons have you carried from global banks that apply across industries?",
+  "What kinds of problems do organizations typically bring you in to solve?",
+
+  // Personal & Fun Facts
+  "What do you do to reset outside of work?",
+  "What's something people would be surprised to learn about you?",
+  "Tell me about your scuba diving hobby",
+  "What are your certifications?",
+  "If you weren't in finance and technology, what would you be doing?",
+
+  // Skills & Approach
+  "What's your Lean Six Sigma experience?",
+  "How do you manage cross-functional teams?",
   "Tell me about your experience with process automation",
-  "What major achievements are you most proud of?",
-  "How did you drive operational efficiency at major banks?",
+  "What differentiates you from other transformation leaders?",
+  "How do you bridge business, risk, compliance, and technology?",
 ];
 
 function getRandomQuestions(count: number) {
