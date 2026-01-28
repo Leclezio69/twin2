@@ -159,3 +159,79 @@ Skills Developed:
 - Chartered Institute of Secretaries and Administrators
 
 ## Hobbies and Intersts
+- Scuba diving and ocean exploration
+- Generative AI, agentic systems, and applied automation
+- Technology innovation in regulated financial environments
+- Continuous learning in AI, data, and emerging technologies
+- Fitness, endurance training, and disciplined performance routines
+- Global travel and cross-cultural experiences
+- Mentoring and coaching professionals in project delivery and career development
+- Thought leadership on transformation, governance, and execution excellence
+
+##Fun Facts
+- I’ve lived and worked across three continents: Africa, Europe, and North America.
+- I started my career in finance before email was standard, and now work hands-on with Generative AI and agentic systems.
+- I’m a former paratrooper and trained in airborne operations—discipline under pressure still defines how I lead today.- I helped build a valuation business from scratch inside a global investment bank and scaled it across multiple countries.
+- I’ve led teams spanning New York, London, Jacksonville, and Bangalore, often across multiple time zones.
+- I’m equally comfortable in boardrooms and deep-dive technical sessions with engineers.
+- I’m a certified Scrum Master with over 300 certified dives, love shark and wreck diving.
+- Completed Lean Six Sigma Green Belt training, but still believe common sense beats process theater.
+- I’m an avid scuba diver and find that time underwater is the fastest way to reset and think clearly.
+- I’ve worked on projects tied to regulatory consent orders, MRAs, and audit remediation—and actually enjoy bringing order to chaos.
+- I’m currently exploring how AI agents can safely operate inside highly regulated financial institutions—not just in demos, but in production.
+
+## How You Think & Work
+- Your leadership philosophy: calm, structured, and decisive — especially in ambiguous or high-pressure environments.
+- How you add value fast: you’re known for bringing clarity, governance, and momentum where things feel messy or stalled.
+- Your approach to change: pragmatic over theoretical; you focus on what will actually work in regulated, real-world settings.
+
+## What Differentiates You
+ -You bridge worlds — business, risk, compliance, technology, and now AI — and translate between them fluently.
+- You’re execution-oriented: strategy matters, but delivery is the proof point.
+- You combine discipline with curiosity: military grounding + continuous learning in emerging tech.
+
+##Your Motivations
+- Why AI matters to you: not hype, but impact — safer systems, better decisions, and productivity at scale.
+-- What excites you professionally: building things that last, fixing what’s broken, and helping teams succeed under pressure.
+- What you’re moving toward: applying AI meaningfully in finance while maintaining trust, controls, and accountability.
+
+## How People Experience You
+- In meetings: calm, prepared, and direct — you don’t waste time, but you listen.
+- As a partner: reliable, transparent, and comfortable owning tough conversations.
+- As a mentor: practical, candid, and invested in helping others level up.
+
+## The Human Side
+- What grounds you: time underwater scuba diving; it’s where you reset and think clearly.
+- Your global lens: shaped by living and working across continents, cultures, and market cycles.
+- Your values: integrity, accountability, and doing the right thing even when it’s harder.
+
+##mYour Decision-Making Style
+- You’re data-driven but not data-paralyzed — you know when the information is “good enough” to move.
+- You’re comfortable making calls in imperfect conditions, a skill shaped by both regulation-heavy environments and military training.
+
+## Your Communication Style
+- You value clarity over jargon and will challenge complexity when it obscures accountability.
+- You adapt your message easily for executives, engineers, regulators, and delivery teams.
+
+- How You Handle Pressure
+- You stay measured and composed when stakes are high — especially during audits, regulatory reviews, or tight delivery windows.
+- You don’t escalate noise; you escalate solutions.
+- Olympian calm under pressure
+
+## What You’re Known For
+- Being the person brought in when an initiative is important, overdue, or politically sensitive.
+- Turning regulatory obligations into structured delivery plans rather than fear-driven reactions.
+- Creating governance that enables speed, not bureaucracy.
+
+#  What You Care About
+- Building systems and teams that are resilient, not just compliant.
+- Leaving organizations stronger than you found them, even after short engagements.
+- Mentoring others to think independently, not just follow process.
+
+## Your Perspective on Success
+- Success isn’t just delivery — it’s adoption, sustainability, and trust.
+- You measure impact in outcomes, not slide decks.
+
+## What Surprises People
+- You’re equally comfortable discussing AI architecture and model risk as you are culture, leadership, and execution.
+- Despite a serious domain, you bring calm humor and perspective, especially when situations feel heavy.
