@@ -1,7 +1,7 @@
 'use client';
 
 import TwinTwo from '@/components/twin-two';
-import { Sparkles, MessageSquare, Brain, Zap } from 'lucide-react';
+import { Sparkles, MessageSquare, Brain, Zap, Cpu, Database, Clock, HelpCircle, Cog, ArrowRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const allQuestions = [
@@ -202,6 +202,95 @@ export default function DigitalTwinTwoPage() {
         </div>
 
       </main>
+
+      {/* How It Works Section */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl font-bold text-slate-100 mb-2">Under the Hood</h2>
+          <p className="text-slate-400">How this Digital Twin works and what powers it</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* How It Works */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl flex items-center justify-center mb-4">
+              <Cog className="w-6 h-6 text-purple-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">How It Works</h3>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              This Digital Twin uses Retrieval-Augmented Generation (RAG) to combine Richard's professional knowledge base with advanced AI. Your questions are matched against curated content about his career, achievements, and expertise to generate authentic, contextual responses.
+            </p>
+          </div>
+
+          {/* Technology Stack */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-xl flex items-center justify-center mb-4">
+              <Cpu className="w-6 h-6 text-blue-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">Technology Stack</h3>
+            <ul className="text-sm text-slate-400 space-y-2">
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />OpenAI GPT-4o for intelligent responses</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Next.js 16 for the web interface</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Vercel for global edge deployment</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Real-time streaming responses</li>
+            </ul>
+          </div>
+
+          {/* What Happens */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-green-500/20 to-emerald-500/20 rounded-xl flex items-center justify-center mb-4">
+              <MessageSquare className="w-6 h-6 text-green-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">When You Ask a Question</h3>
+            <ol className="text-sm text-slate-400 space-y-2">
+              <li className="flex items-start"><span className="text-purple-400 font-medium mr-2">1.</span>Your question is processed securely</li>
+              <li className="flex items-start"><span className="text-purple-400 font-medium mr-2">2.</span>Relevant context is retrieved from Richard's knowledge base</li>
+              <li className="flex items-start"><span className="text-purple-400 font-medium mr-2">3.</span>GPT-4o generates a personalized response</li>
+              <li className="flex items-start"><span className="text-purple-400 font-medium mr-2">4.</span>Response streams back in real-time</li>
+            </ol>
+          </div>
+
+          {/* What You Can Ask */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-orange-500/20 to-amber-500/20 rounded-xl flex items-center justify-center mb-4">
+              <HelpCircle className="w-6 h-6 text-orange-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">What You Can Ask About</h3>
+            <ul className="text-sm text-slate-400 space-y-2">
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />20+ years of banking & finance experience</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Regulatory transformation & compliance</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Leadership style & career achievements</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />AI, technology & digital transformation</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Military background & personal interests</li>
+            </ul>
+          </div>
+
+          {/* Knowledge Base */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-pink-500/20 to-rose-500/20 rounded-xl flex items-center justify-center mb-4">
+              <Database className="w-6 h-6 text-pink-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">Knowledge Base</h3>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              The twin draws from curated professional data including LinkedIn profile, career history, certifications, key achievements, leadership philosophy, and personal insights — all structured to provide accurate, relevant responses.
+            </p>
+          </div>
+
+          {/* Response Time */}
+          <div className="bg-slate-900/50 border border-purple-500/10 rounded-xl p-6 hover:border-purple-500/20 transition-colors">
+            <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-xl flex items-center justify-center mb-4">
+              <Clock className="w-6 h-6 text-cyan-400" />
+            </div>
+            <h3 className="text-lg font-semibold text-slate-200 mb-3">Response Time</h3>
+            <ul className="text-sm text-slate-400 space-y-2">
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />First token: ~1-2 seconds</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Full response: 5-15 seconds</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Streaming enabled for instant feedback</li>
+              <li className="flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-purple-400" />Available 24/7 globally via Vercel Edge</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-purple-500/10 bg-slate-900/30 mt-12">
